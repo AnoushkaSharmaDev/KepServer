@@ -11,9 +11,9 @@ import java.util.concurrent.CompletableFuture;
 
 public interface ClientInterface {
     default String getEndpointUrl() {
-        Config conf = ConfigFactory.load();
+       //provide the end point url of sever.
         
-       return "opc.tcp://DESKTOP-M5VOHK6:49320";
+       return "opc.tcp://DESKTOP-OPK:49320";
     }
 
     default SecurityPolicy getSecurityPolicy() {
