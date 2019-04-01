@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 
-public class Read implements ClientExample{
+public class Read implements ClientInterface{
 
 public static void main(String[] args) throws Exception {
         ReadExample example = new ReadExample();
