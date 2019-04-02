@@ -80,8 +80,8 @@ public class ClientExampleRunner {
                 .setApplicationUri("urn:eclipse:milo:examples:client")
                .setEndpoint(endpoint)
                 .setIdentityProvider(clientExample.getIdentityProvider())
-               /* .setRequestTimeout(uint(5000))*/
-               /* .setIdentityProvider(new UsernameProvider("Administrator", "Abcd123"))  //uncomment if kep server is secured with username and password.
+               /* .setRequestTimeout(uint(5000))
+               /* .setIdentityProvider(new UsernameProvider("Administrator", "Abcd123"))  //uncomment if kep server is secured with username and password.*/
                 .build();
 
         return new OpcUaClient(config);
